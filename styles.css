@@ -188,6 +188,16 @@ ul li a:hover {
     text-align: center;
     font-size: 14px;
   }
+  
+  @media (max-width: 699px) {
+  :root {
+    --bg-url: url(./assets/bg-mobile.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-mobile-light.jpg);
+  }
+}
 
   @media (min-width: 700px) {
     :root {
